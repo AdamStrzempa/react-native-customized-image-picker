@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="86"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dSc-nm-apo" id="7lA-qJ-5l4">
-                                    <rect key="frame" x="0.0" y="0.0" width="382.5" height="86"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="383" height="86"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kTm-zK-fPP">
@@ -99,11 +99,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Photos" id="r7D-Kp-3yC">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="s1M-VA-CeM">
+                            <color key="tintColor" red="0.50588235290000005" green="0.33333333329999998" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="cancel:" destination="QL5-wR-LYt" id="l9K-7e-2qt"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="laG-jk-Ma2">
+                            <color key="tintColor" red="0.50588235290000005" green="0.33333333329999998" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="done:" destination="QL5-wR-LYt" id="Try-7j-DzS"/>
                             </connections>
@@ -254,6 +256,7 @@
                     </collectionView>
                     <navigationItem key="navigationItem" title="Album Title" id="wKf-eb-U1x">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="nai-ZV-lR8">
+                            <color key="tintColor" red="0.50588235290000005" green="0.33333333329999998" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="done:" destination="QiH-NZ-ZGN" id="RYV-Ik-8ry"/>
                             </connections>
@@ -288,4 +291,5 @@
             <point key="canvasLocation" x="166" y="852"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.50588235290000005" green="0.33333333329999998" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
